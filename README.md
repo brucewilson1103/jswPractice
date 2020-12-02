@@ -1,2 +1,2 @@
-# jswPractice
+# jsxPractice
 Created with CodeSandbox
