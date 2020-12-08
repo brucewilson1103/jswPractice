@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-let luckyNumber = Math.floor(Math.random() * 10);
-const today = new Date();
-const year = today.getFullYear();
+import Heading from "./heading.jsx";
+import Lucky from "./luckyNumber";
+
 const img = "https://picsum.photos/200";
 
 const customStyle2 = {
@@ -32,11 +32,10 @@ ReactDOM.render(
     <h1 className="heading" style={customStyle}>
       {greeting}
     </h1>
-    <h2 className="head"> Hey World</h2>
+    <Heading />
     <p style={customStyle2}>Please stop drop and roll.</p>
     <img alt="random" src={img + "?grayscale"} />
-    <p>Your lucky number is {luckyNumber}</p>
-    <p>Copyright {year}.</p>
+    <Lucky />
   </div>,
   document.getElementById("root")
 );
