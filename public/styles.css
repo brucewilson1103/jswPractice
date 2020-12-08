@@ -1,11 +1,22 @@
 .head {
   color: grey;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
-div {
-  background: seashell;
+body {
+  background-image: url(https://miro.medium.com/max/1250/1*QqfEHlLdVVZIaytTsupcbw.jpeg);
+  background-size: cover;
+}
+
+.compback {
+  color: seashell;
+}
+.number {
+  color: rgba(102, 83, 49, 0.718);
+}
+.copy {
+  text-align: left;
 }
 
 .heading {

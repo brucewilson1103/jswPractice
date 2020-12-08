@@ -3,7 +3,7 @@ import React from "react";
 const img = "https://picsum.photos/200";
 
 const customStyle2 = {
-  color: "blue"
+  color: "grey"
 };
 
 function Image() {

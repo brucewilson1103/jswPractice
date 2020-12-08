@@ -24,7 +24,7 @@ function Heading() {
       <h1 className="heading" style={customStyle}>
         {greeting}
       </h1>
-      <h2 className="head"> Hey World</h2>
+      <h2 className="head compback"> Hey World</h2>
     </div>
   );
 }
