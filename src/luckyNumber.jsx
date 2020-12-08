@@ -8,7 +8,7 @@ const year = today.getFullYear();
 function Lucky() {
   return (
     <div>
-      <p>Your lucky number is {luckyNumber}</p>
+      <p className="head">Your lucky number is {luckyNumber}</p>
       <p>Copyright {year}.</p>
     </div>
   );

@@ -1,5 +1,7 @@
 .head {
-  color: red;
+  color: grey;
+  margin: auto;
+  text-align: center;
 }
 
 div {
